@@ -49,38 +49,42 @@ This project demonstrates the fundamentals of web development, including user au
 ---
 
 ## 📂 Project Structure
+
+```
 CRUD-APP/
 ├── assets/
 │   ├── css/
-│   │   └── style.css          # Main stylesheet
+│   │   └── style.css          
 │   └── js/
-│       ├── auth.js            # Authentication functions
-│       ├── dashboard.js       # Dashboard functionality
-│       ├── script.js          # Main JavaScript
-│       ├── test.js            # Better handling
-│       └── theme.js           # Theme management (dark/light mode)
+│       ├── auth.js            
+│       ├── dashboard.js       
+│       ├── script.js          
+│       ├── test.js         
+│       └── theme.js           
 ├── config/
-│   └── config.php             # Application configuration
+│   └── config.php         
 ├── includes/
-│   └── footer.php             # Footer component
+│   └── footer.php    
 ├── pages/
-│   ├── dashboard.php          # User dashboard
-│   ├── edit.php               # Edit user profiles
-│   ├── login.php              # User login
-│   ├── logout.php             # Logout handling
-│   ├── profile.php            # Profile management
-│   ├── register.php           # User registration
-│   └── reset-password.php     # Password reset
-├── screenshots/               # Project screenshots
-├── database.sql               # Database schema
-└── index.php                  # Home page
+│   ├── dashboard.php          
+│   ├── edit.php               
+│   ├── login.php  
+│   ├── logout.php             
+│   ├── profile.php            
+│   ├── register.php          
+│   └── reset-password.php 
+├── screenshots/     
+├── database.sql     
+└── index.php
+└── README.md
+```
 
 ---
 
 ## ⚙️ Setup Instructions
 
  *Clone the repository*
-   ```bash (on your git)
+   ``bash (on your git)
 git clone https://github.com/skywealth001/crud-app.git (to clone repository to your local machine)
 
    Set up the database
