@@ -87,30 +87,27 @@ CRUD-APP/
    ``bash (on your git)
 git clone https://github.com/skywealth001/crud-app.git (to clone repository to your local machine)
 
-   Set up the database
-	•	Import database.sql into your MySQL server
-	•	Update database credentials in config/config.php
-	3.	Start local server
-	•	Place the project in your server root (htdocs for XAMPP, WAMP, etc.)
-	•	Run Apache and MySQL
-	4.	Access the app
-	•	Open browser and go to:
+   -*Set up the database*
+	-	Import database.sql into your MySQL server
+	-	Update database credentials in config/config.php
+	-	Start local server
+	-	Place the project in your server root (htdocs for XAMPP, WAMP, etc.)
+	-	Run Apache and MySQL
+	-	Access the app
+	-	Open browser and go to:
     http://localhost/crud-app/
 
-    ## 📸 Screenshots
-To provide a better understanding of the application, several screenshots have been added in the screenshots/ folder.
-	•	Homepage & Authentication
-Shows the registration and login pages, highlighting form validation and error messages.
-    •	Dashboard
-Displays the user dashboard with navigation and task summaries.
-	•	Profile Management
-Example of the profile editing and password change functionality.
-	•	CRUD Operations
-Demonstrates creating, editing, and deleting tasks.
-	•	Dark/Light Mode
-The theme toggle in action.
+   ## 📸 Screenshots
 
-    ## Learning Objectives Achieved
+-*To provide a better understanding of the application, several screenshots have been added in the screenshots/ folder*.
+	•	Homepage & Authentication
+    •	Dashboard
+	•	Profile Management
+	•	CRUD Operations
+	•	Dark/Light Mode
+
+   ## 🏫 Learning Objectives Achieved
+
 	•	Implemented user authentication with secure login/registration
 	•	Connected to a MySQL database with proper configuration
 	•	Developed CRUD operations (Create, Read, Update, Delete)
