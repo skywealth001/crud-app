@@ -84,35 +84,48 @@ CRUD-APP/
 ## ⚙️ Setup Instructions
 
 *Clone the repository*
-```bash
+(in your git bash run:)
 git clone https://github.com/skywealth001/crud-app.git (to clone repository to your local machine)
 
-   Set up the database
-	•	Import database.sql into your MySQL server
-	•	Update database credentials in config/config.php
-	•	Start your local server
-	•	Place the project in your server root (htdocs for XAMPP, WAMP, etc.)
-	•	Run Apache and MySQL
-	•	Access the app by opening your browser and going to:
-http://localhost/crud-app/
+  ## Database Setup
+-Import database.sql into your MySQL server
 
-⸻
+-Update database credentials in config/config.php
 
-📸 Screenshots
+-Start Local Server
+-Place the project in your server root:
 
-To provide a better understanding of the application, several screenshots have been added in the screenshots/ folder:
-	•	Homepage & Authentication
-	•	Dashboard
-	•	Profile Management
-	•	CRUD Operations
-	•	Dark/Light Mode
+-htdocs for XAMPP or wamp
 
-⸻
+Run Apache and MySQL services
 
-🏫 Learning Objectives Achieved
-	•	Implemented user authentication with secure login/registration
-	•	Connected to a MySQL database with proper configuration
-	•	Developed CRUD operations (Create, Read, Update, Delete)
-	•	Designed a responsive interface with dark/light mode
-	•	Implemented form validation & error handling
-	•	Organized code with a structured MVC-like approach
+Access the application at:
+👉 http://localhost/crud-app/
+
+## 📸 Screenshots
+The following screenshots are available in the screenshots/ folder:
+
+-Homepage & Authentication
+
+-Dashboard
+
+-Profile Management
+
+-CRUD Operations
+
+-Dark/Light Mode
+
+## 🎯 Learning Objectives Achieved
+-User Authentication - Secure login/registration system
+
+-Database Integration - MySQL database with proper configuration
+
+-CRUD Operations - Complete Create, Read, Update, Delete functionality
+
+-Responsive Design - Interface with dark/light mode toggle
+
+-Form Validation - Robust validation & error handling
+
+-Code Organization - Structured MVC-like architecture
+
+
